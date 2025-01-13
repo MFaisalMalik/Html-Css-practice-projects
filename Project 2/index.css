@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  background-color: lightgray;
+  position: relative;
+  padding: 30px 0px;
+}
+
+.modal {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 50px 0px 20px 30px;
+  font-size: 35px;
+}
+
+.web {
+  font-size: 30px;
+}
+
+.content h2 {
+  margin-bottom: 30px;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 0px;
+}
+
+.address {
+  grid-column: 1 / -1;
+}
+
+.item label {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 30px 0px 10px 0px;
+  display: block;
+}
+
+.item input,
+select,
+textarea {
+  height: 60px;
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.address textarea {
+  width: 95%;
+  height: 150px;
+  resize: vertical;
+}
+
+.apply-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+}
+
+.apply {
+  border: none;
+  color: white;
+  background-color: red;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 25px;
+}
