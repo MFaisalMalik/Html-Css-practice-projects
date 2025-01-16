@@ -1,0 +1,71 @@
+.title-page {
+  margin-bottom: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 150px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.hamburger-menu {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.intro {
+  display: flex;
+}
+
+.plate-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plate-image img {
+  height: 650px;
+}
+
+.info-container {
+  padding-top: 100px;
+  width: 50%;
+}
+
+.info {
+  width: 70%;
+}
+
+.discount {
+  background-color: rgb(12, 166, 12);
+  color: white;
+  display: inline-block;
+  padding: 8px 30px;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.info h2 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin-bottom: 30px;
+}
+
+.explore {
+  background-color: rgba(255, 217, 0, 0.608);
+  color: white;
+  border: none;
+  font-size: 25px;
+  padding: 15px 30px;
+}

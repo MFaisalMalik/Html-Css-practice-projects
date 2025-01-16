@@ -1,0 +1,25 @@
+.service-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  border-bottom: 2px solid rgb(211, 205, 205);
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 50px;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 350px;
+}
+
+.service-info h3 {
+  margin-bottom: 10px;
+}
