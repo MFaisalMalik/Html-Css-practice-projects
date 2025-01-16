@@ -6,11 +6,11 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 
 .developer {
   height: 100vh;
-  background-color: red;
   background-image: url("images/developer.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -52,8 +52,9 @@ body {
 }
 
 .cards {
-  display: flex;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
 }
 
 .card {
@@ -61,6 +62,11 @@ body {
   border-radius: 15px;
   border: 1px solid rgb(223, 220, 220);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .pic-container img {
@@ -89,13 +95,11 @@ body {
 }
 
 .contact {
-  width: 50%;
   background-color: rgb(88, 84, 4);
   padding: 30px 90px;
 }
 
 .about {
-  width: 50%;
   background-color: rgb(120, 36, 4);
   padding: 30px 90px;
 }
@@ -117,4 +121,73 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 700px) {
+  .about-contact-container {
+    flex-direction: column;
+  }
+  .services {
+    height: 100%;
+    padding: 40px;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .intro {
+    font-size: 40px;
+    width: 90%;
+  }
+  .intro p span {
+    font-size: 20px;
+  }
+  .work {
+    height: 280px;
+    font-size: 20px;
+  }
+
+  .work p span {
+    font-size: 40px;
+  }
+
+  .heading {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media (min-width:701px) and (max-width: 1100px) {
+  .about-contact-container {
+    flex-direction: column;
+  }
+  .services {
+    height: 100%;
+    padding: 40px;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .intro {
+    font-size: 40px;
+    width: 90%;
+  }
+  .intro p span {
+    font-size: 20px;
+  }
+  .work {
+    height: 280px;
+    font-size: 20px;
+  }
+
+  .work p span {
+    font-size: 40px;
+  }
+
+  .heading {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
 }
