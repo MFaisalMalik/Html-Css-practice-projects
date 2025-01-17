@@ -30,11 +30,11 @@ footer {
 }
 
 .footer-logo img {
-  height: 100px;
+  height: 70px;
 }
 
 footer h4 {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(79, 76, 76);
   margin-bottom: 20px;
 }
@@ -42,7 +42,7 @@ footer h4 {
 footer ul {
   list-style-type: none;
   color: rgb(79, 76, 76);
-  font-size: 18px;
+  font-size: 13px;
 }
 
 footer li {
@@ -60,8 +60,8 @@ footer li {
 }
 
 .fa-brands {
-  font-size: 30px;
-  width: 50px;
+  font-size: 25px;
+  width: 40px;
   text-decoration: none;
   color: black;
 }

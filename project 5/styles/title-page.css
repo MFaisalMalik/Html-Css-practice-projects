@@ -1,23 +1,6 @@
 .title-page {
+  margin-top: 50px;
   margin-bottom: 100px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 150px;
-  padding-bottom: 50px;
-  padding-top: 30px;
-}
-
-.logo img {
-  height: 100px;
-}
-
-.hamburger-menu {
-  font-size: 30px;
-  font-weight: 900;
 }
 
 .intro {
@@ -32,12 +15,12 @@
 }
 
 .plate-image img {
-  height: 650px;
+  height: 500px;
 }
 
 .info-container {
-  padding-top: 100px;
   width: 50%;
+  padding-top: 100px;
 }
 
 .info {
@@ -54,7 +37,7 @@
 }
 
 .info h2 {
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
@@ -66,8 +49,8 @@
   background-color: rgba(255, 217, 0, 0.833);
   color: white;
   border: none;
-  font-size: 25px;
-  padding: 15px 30px;
+  font-size: 20px;
+  padding: 10px 20px;
   cursor: pointer;
   transition: opacity 0.3s;
 }
