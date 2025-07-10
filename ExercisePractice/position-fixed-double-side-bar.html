@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 3000px;
+            width: 3000px;
+        }
+        .double-side-bar {
+            position: fixed;
+            display: flex;
+            background-color: gray;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 300px;
+        }
+        .profiles {
+            background-color: rgb(37, 35, 35);
+            width: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            padding-top: 10px;
+        }
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        .info {
+            background-color: rgb(54, 50, 50);
+            flex: 1;
+        }
+        p {
+            margin: 10px;
+        }
+        .info-para {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+        .tags {
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="double-side-bar">
+        <div class="profiles">
+            <img class="profile-pic" src="images/cat.jpeg" alt="">
+            <img class="profile-pic" src="images/cat.jpeg" alt="">
+            <img class="profile-pic" src="images/cat.jpeg" alt="">
+        </div>
+        <div class="info">
+            <p class="info-para">INFO</p>
+            <p class="tags"># new-videos</p>
+            <p class="tags"># updates</p>
+            <p class="tags"># faq</p>
+        </div>
+    </div>
+</body>
+</html>

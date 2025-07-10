@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .img {
+        border: 2px solid red;
+        width: 300px;
+        height: 300px;
+        /* object-fit: cover; */
+        /* object-position: left; */
+        object-fit: contain;
+        /* object-position: top; */
+        border-radius: 150px;
+        display: block;
+      }
+      .profile_pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        vertical-align: middle;
+      }
+      .search_box {
+        border: none;
+        padding-right: 30px;
+        margin-left: 10px;
+        vertical-align: middle;
+      }
+      .search_box:focus {
+        outline: none;
+      }
+      .tweet {
+        border: none;
+        background-color: rgb(37, 161, 214);
+        color: white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: bold;
+        vertical-align: middle;
+      }
+
+      .text{
+        width: 300px;
+        display: inline-block;
+        margin-right: 30px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <img class="img" src="thumbnail-1.webp" alt="img"> -->
+    <img class="profile_pic" src="images/my pic.jpg" alt="img" />
+    <input class="search_box" type="text" placeholder="What's happening?" />
+    <button class="tweet">Tweet</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quos
+      ipsam minus, eius obcaecati expedita quisquam quis, consectetur fugiat
+      aliquam qui in nobis explicabo. Cupiditate beatae rerum itaque fugiat fuga
+      nobis molestiae maxime excepturi. Sunt iusto totam nisi magnam,
+      reprehenderit officiis delectus nemo, ad sed excepturi et maiores
+      exercitationem eaque.
+    </p>
+    <button class="yesbutton">yes</button>
+    <button class="nobutton">no</button>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        position: relative;
+        display: inline-block;
+      }
+      .discount {
+        position: absolute;
+        color: white;
+        background-color: black;
+        top: 10px;
+        right: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        padding: 5px 10px;
+      }
+      .bottom-bar {
+        background-color: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .add {
+        padding: 5px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/shirt.jpg" alt="" class="shirt" />
+      <div class="discount">20% OFF</div>
+      <div class="bottom-bar">
+        <button class="add">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

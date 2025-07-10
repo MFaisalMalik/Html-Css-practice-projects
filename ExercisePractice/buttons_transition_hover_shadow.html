@@ -1,0 +1,66 @@
+<style>
+  .hello {
+    color: rgb(60, 60, 224);
+    border-color: rgb(60, 60, 224);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    vertical-align: top;
+  }
+  .World {
+    color: rgb(60, 60, 224);
+    border-color: rgb(60, 60, 224);
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    vertical-align: top;
+  }
+  .hello:hover {
+    background-color: rgb(60, 60, 224);
+    color: white;
+  }
+  .stretch {
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: padding 1s;
+    vertical-align: top;
+  }
+  .stretch:hover {
+    padding: 15px 50px;
+  }
+  .shadow {
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: padding 1s;
+    vertical-align: top;
+  }
+  .shadow:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+</style>
+
+<button class="hello">Hello</button>
+<button class="World">World</button>
+<button class="stretch">Stretch</button>
+<button class="shadow">Shadow</button>

@@ -1,0 +1,38 @@
+✅ CSS & HTML Tips and Best Practices
+
+1. Use Padding Instead of Fixed Width/Height for Buttons  
+Avoid setting fixed width and height on buttons. Instead, use padding to let the button size adjust dynamically to the text inside it.  
+Example:  
+button {  
+  padding: 10px 20px;  
+}  
+This ensures that if the button text changes or becomes longer, it won’t overflow or break the layout.
+
+2. Align Inline Elements to the Top  
+By default, browsers align inline elements (like images or buttons) based on the text baseline. To align them to the top, use:  
+vertical-align: top;  
+This helps avoid awkward vertical spacing when mixing inline or inline-block elements.
+
+3. Wrapping Text to the Next Line  
+To force text to go to the next line, restrict the container’s width:  
+p {  
+  width: 300px;  
+}  
+The text will automatically wrap when it exceeds the container width.
+
+4. CSS Specificity: Class vs Element Selector  
+CSS class selectors have higher specificity than element selectors.  
+Example:  
+.name { padding: 20px; }  
+p { padding: 10px; }  
+HTML:  
+<p class="name">Hello</p>  
+Even though the p selector is written later, the .name class will apply because it has higher specificity.
+
+5. HTML Entities for Special Characters  
+To display special characters like ✓, →, ©, etc., use HTML entities.  
+Examples:  
+✓ = &check;  
+→ = &rarr;  
+© = &copy;  
+You can search “HTML entity for [symbol]” to find the correct code and use it in your HTML.
